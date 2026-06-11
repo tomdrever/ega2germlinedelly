@@ -1,2 +1,328 @@
-[2026-06-11 22:11:18 +0100] 
-[2026-06-11 22:11:18 +0100] pyEGA3 - EGA python client version 5.1.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-11 23:25:18 +0100] 
+[2026-06-11 23:25:18 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-11 23:25:18 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-11 23:25:18 +0100] Python version : 3.10.12
+[2026-06-11 23:25:18 +0100] OS version : Linux #187-Ubuntu SMP Sat Apr 11 22:54:33 UTC 2026
+[2026-06-11 23:25:18 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-11 23:25:18 +0100] Session-Id: 1392715865
+[2026-06-11 23:25:18 +0100] Unrecognized identifier - please use EGAD accession for dataset requests
+[2026-06-12 00:27:31 +0100] 
+[2026-06-12 00:27:31 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:27:31 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:27:31 +0100] 
+[2026-06-12 00:27:31 +0100] Python version : 3.10.12
+[2026-06-12 00:27:31 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:27:31 +0100] OS version : Linux #151-Ubuntu SMP Sun May 18 21:35:19 UTC 2025
+[2026-06-12 00:27:31 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:27:31 +0100] Python version : 3.10.12
+[2026-06-12 00:27:31 +0100] OS version : Linux #151-Ubuntu SMP Sun May 18 21:35:19 UTC 2025
+[2026-06-12 00:27:31 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:27:31 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:27:31 +0100] Session-Id: 2260255182
+[2026-06-12 00:27:31 +0100] Session-Id: 1838766768
+[2026-06-12 00:27:32 +0100] 
+[2026-06-12 00:27:32 +0100] 
+[2026-06-12 00:27:32 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:27:32 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:27:32 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:27:32 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:27:32 +0100] Python version : 3.10.12
+[2026-06-12 00:27:32 +0100] Python version : 3.10.12
+[2026-06-12 00:27:32 +0100] OS version : Linux #151-Ubuntu SMP Sun May 18 21:35:19 UTC 2025
+[2026-06-12 00:27:32 +0100] OS version : Linux #151-Ubuntu SMP Sun May 18 21:35:19 UTC 2025
+[2026-06-12 00:27:32 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:27:32 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:27:32 +0100] Session-Id: 2215142897
+[2026-06-12 00:27:32 +0100] Session-Id: 2271700071
+[2026-06-12 00:27:32 +0100] 
+[2026-06-12 00:27:32 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:27:32 +0100] 
+[2026-06-12 00:27:32 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:27:32 +0100] File Id: 'EGAF00002250117'(123811876770 bytes).
+[2026-06-12 00:27:32 +0100] Total space : 50.00 GiB
+[2026-06-12 00:27:32 +0100] File Id: 'EGAF00002250117'(123811876770 bytes).
+[2026-06-12 00:27:32 +0100] Used space : 36.50 GiB
+[2026-06-12 00:27:32 +0100] Free space : 13.50 GiB
+[2026-06-12 00:27:32 +0100] Total space : 50.00 GiB
+[2026-06-12 00:27:32 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:27:32 +0100] Used space : 36.50 GiB
+[2026-06-12 00:27:32 +0100] Free space : 13.50 GiB
+[2026-06-12 00:27:32 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:27:32 +0100] Download starting [using 1 connection(s), file size 123811876754 and chunk length 104857600]...
+[2026-06-12 00:27:32 +0100] Download starting [using 1 connection(s), file size 123811876754 and chunk length 104857600]...
+[2026-06-12 00:27:33 +0100] 
+[2026-06-12 00:27:33 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:27:33 +0100] 
+[2026-06-12 00:27:33 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:27:33 +0100] File Id: 'EGAF00002250111'(87166147387 bytes).
+[2026-06-12 00:27:33 +0100] File Id: 'EGAF00002250111'(87166147387 bytes).
+[2026-06-12 00:27:33 +0100] Total space : 50.00 GiB
+[2026-06-12 00:27:33 +0100] Total space : 50.00 GiB
+[2026-06-12 00:27:33 +0100] Used space : 36.50 GiB
+[2026-06-12 00:27:33 +0100] Used space : 36.50 GiB
+[2026-06-12 00:27:33 +0100] Free space : 13.50 GiB
+[2026-06-12 00:27:33 +0100] Free space : 13.50 GiB
+[2026-06-12 00:27:33 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:27:33 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:27:33 +0100] Download starting [using 1 connection(s), file size 87166147371 and chunk length 104857600]...
+[2026-06-12 00:27:33 +0100] Download starting [using 1 connection(s), file size 87166147371 and chunk length 104857600]...
+[2026-06-12 00:27:34 +0100] 
+[2026-06-12 00:27:34 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:27:34 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:27:34 +0100] Python version : 3.10.12
+[2026-06-12 00:27:34 +0100] OS version : Linux #151-Ubuntu SMP Sun May 18 21:35:19 UTC 2025
+[2026-06-12 00:27:34 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:27:34 +0100] Session-Id: 973910127
+[2026-06-12 00:27:34 +0100] 
+[2026-06-12 00:27:34 +0100] 
+[2026-06-12 00:27:34 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:27:34 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:27:34 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:27:34 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:27:34 +0100] Python version : 3.10.12
+[2026-06-12 00:27:34 +0100] Python version : 3.10.12
+[2026-06-12 00:27:34 +0100] OS version : Linux #151-Ubuntu SMP Sun May 18 21:35:19 UTC 2025
+[2026-06-12 00:27:34 +0100] OS version : Linux #151-Ubuntu SMP Sun May 18 21:35:19 UTC 2025
+[2026-06-12 00:27:34 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:27:34 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:27:34 +0100] Session-Id: 3710969599
+[2026-06-12 00:27:34 +0100] Session-Id: 1672497617
+[2026-06-12 00:27:34 +0100] 
+[2026-06-12 00:27:34 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:27:34 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:27:34 +0100] Python version : 3.10.12
+[2026-06-12 00:27:34 +0100] OS version : Linux #151-Ubuntu SMP Sun May 18 21:35:19 UTC 2025
+[2026-06-12 00:27:34 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:27:34 +0100] Session-Id: 4143760866
+[2026-06-12 00:27:35 +0100] 
+[2026-06-12 00:27:35 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:27:35 +0100] File Id: 'EGAF00002249967'(93214326278 bytes).
+[2026-06-12 00:27:35 +0100] Total space : 50.00 GiB
+[2026-06-12 00:27:35 +0100] Used space : 36.50 GiB
+[2026-06-12 00:27:35 +0100] Free space : 13.50 GiB
+[2026-06-12 00:27:35 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:27:35 +0100] Download starting [using 1 connection(s), file size 93214326262 and chunk length 104857600]...
+[2026-06-12 00:27:35 +0100] 
+[2026-06-12 00:27:35 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:27:35 +0100] File Id: 'EGAF00002249969'(86922761301 bytes).
+[2026-06-12 00:27:35 +0100] Total space : 50.00 GiB
+[2026-06-12 00:27:35 +0100] Used space : 36.50 GiB
+[2026-06-12 00:27:35 +0100] Free space : 13.50 GiB
+[2026-06-12 00:27:35 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:27:35 +0100] Download starting [using 1 connection(s), file size 86922761285 and chunk length 104857600]...
+[2026-06-12 00:27:35 +0100] 
+[2026-06-12 00:27:35 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:27:35 +0100] File Id: 'EGAF00002249969'(86922761301 bytes).
+[2026-06-12 00:27:35 +0100] Total space : 50.00 GiB
+[2026-06-12 00:27:35 +0100] Used space : 36.50 GiB
+[2026-06-12 00:27:35 +0100] Free space : 13.50 GiB
+[2026-06-12 00:27:35 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:27:35 +0100] Download starting [using 1 connection(s), file size 86922761285 and chunk length 104857600]...
+[2026-06-12 00:27:35 +0100] 
+[2026-06-12 00:27:35 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:27:35 +0100] 
+[2026-06-12 00:27:35 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:27:35 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:27:35 +0100] Python version : 3.10.12
+[2026-06-12 00:27:35 +0100] OS version : Linux #151-Ubuntu SMP Sun May 18 21:35:19 UTC 2025
+[2026-06-12 00:27:35 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:27:35 +0100] Session-Id: 1579214435
+[2026-06-12 00:27:35 +0100] File Id: 'EGAF00002249967'(93214326278 bytes).
+[2026-06-12 00:27:35 +0100] Total space : 50.00 GiB
+[2026-06-12 00:27:35 +0100] Used space : 36.50 GiB
+[2026-06-12 00:27:35 +0100] Free space : 13.50 GiB
+[2026-06-12 00:27:35 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:27:35 +0100] Download starting [using 1 connection(s), file size 93214326262 and chunk length 104857600]...
+[2026-06-12 00:27:35 +0100] 
+[2026-06-12 00:27:35 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:27:35 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:27:35 +0100] Python version : 3.10.12
+[2026-06-12 00:27:35 +0100] OS version : Linux #151-Ubuntu SMP Sun May 18 21:35:19 UTC 2025
+[2026-06-12 00:27:35 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:27:35 +0100] Session-Id: 1105710532
+[2026-06-12 00:27:36 +0100] 
+[2026-06-12 00:27:36 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:27:36 +0100] File Id: 'EGAF00002249957'(99415526745 bytes).
+[2026-06-12 00:27:36 +0100] Total space : 50.00 GiB
+[2026-06-12 00:27:36 +0100] Used space : 36.50 GiB
+[2026-06-12 00:27:36 +0100] Free space : 13.50 GiB
+[2026-06-12 00:27:36 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:27:36 +0100] Download starting [using 1 connection(s), file size 99415526729 and chunk length 104857600]...
+[2026-06-12 00:27:36 +0100] 
+[2026-06-12 00:27:36 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:27:36 +0100] File Id: 'EGAF00002249957'(99415526745 bytes).
+[2026-06-12 00:27:36 +0100] Total space : 50.00 GiB
+[2026-06-12 00:27:36 +0100] Used space : 36.50 GiB
+[2026-06-12 00:27:36 +0100] Free space : 13.50 GiB
+[2026-06-12 00:27:36 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:27:36 +0100] Download starting [using 1 connection(s), file size 99415526729 and chunk length 104857600]...
+[2026-06-12 00:33:08 +0100] 
+[2026-06-12 00:33:08 +0100] 
+[2026-06-12 00:33:08 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:33:08 +0100] 
+[2026-06-12 00:33:08 +0100] 
+[2026-06-12 00:33:08 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:33:08 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:33:08 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:33:08 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:33:08 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:33:08 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:33:08 +0100] Python version : 3.10.12
+[2026-06-12 00:33:08 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:33:08 +0100] Python version : 3.10.12
+[2026-06-12 00:33:08 +0100] Python version : 3.10.12
+[2026-06-12 00:33:08 +0100] OS version : Linux #184-Ubuntu SMP Fri Mar 13 18:41:50 UTC 2026
+[2026-06-12 00:33:08 +0100] Python version : 3.10.12
+[2026-06-12 00:33:08 +0100] OS version : Linux #184-Ubuntu SMP Fri Mar 13 18:41:50 UTC 2026
+[2026-06-12 00:33:08 +0100] OS version : Linux #184-Ubuntu SMP Fri Mar 13 18:41:50 UTC 2026
+[2026-06-12 00:33:08 +0100] OS version : Linux #184-Ubuntu SMP Fri Mar 13 18:41:50 UTC 2026
+[2026-06-12 00:33:08 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:33:08 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:33:08 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:33:08 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:33:08 +0100] Session-Id: 1807789621
+[2026-06-12 00:33:08 +0100] Session-Id: 3026154301
+[2026-06-12 00:33:08 +0100] Session-Id: 2205056357
+[2026-06-12 00:33:08 +0100] Session-Id: 4232476540
+[2026-06-12 00:33:09 +0100] 
+[2026-06-12 00:33:09 +0100] 
+[2026-06-12 00:33:09 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:33:09 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:33:09 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:33:09 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:33:09 +0100] Python version : 3.10.12
+[2026-06-12 00:33:09 +0100] Python version : 3.10.12
+[2026-06-12 00:33:09 +0100] OS version : Linux #184-Ubuntu SMP Fri Mar 13 18:41:50 UTC 2026
+[2026-06-12 00:33:09 +0100] OS version : Linux #184-Ubuntu SMP Fri Mar 13 18:41:50 UTC 2026
+[2026-06-12 00:33:09 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:33:09 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:33:09 +0100] Session-Id: 2295535369
+[2026-06-12 00:33:09 +0100] Session-Id: 616153501
+[2026-06-12 00:33:09 +0100] 
+[2026-06-12 00:33:09 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:33:09 +0100] 
+[2026-06-12 00:33:09 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:33:09 +0100] 
+[2026-06-12 00:33:09 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:33:09 +0100] 
+[2026-06-12 00:33:09 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:33:09 +0100] File Id: 'EGAF00002250117'(123811876770 bytes).
+[2026-06-12 00:33:09 +0100] Total space : 50.00 GiB
+[2026-06-12 00:33:09 +0100] Used space : 36.50 GiB
+[2026-06-12 00:33:09 +0100] Free space : 13.50 GiB
+[2026-06-12 00:33:09 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:33:09 +0100] Download starting [using 1 connection(s), file size 123811876754 and chunk length 104857600]...
+[2026-06-12 00:33:09 +0100] File Id: 'EGAF00002250112'(9362048 bytes).
+[2026-06-12 00:33:09 +0100] Total space : 50.00 GiB
+[2026-06-12 00:33:09 +0100] Used space : 36.50 GiB
+[2026-06-12 00:33:09 +0100] Free space : 13.50 GiB
+[2026-06-12 00:33:09 +0100] Download starting [using 1 connection(s), file size 9362032 and chunk length 104857600]...
+[2026-06-12 00:33:09 +0100] File Id: 'EGAF00002250111'(87166147387 bytes).
+[2026-06-12 00:33:09 +0100] Total space : 50.00 GiB
+[2026-06-12 00:33:09 +0100] Used space : 36.50 GiB
+[2026-06-12 00:33:09 +0100] Free space : 13.50 GiB
+[2026-06-12 00:33:09 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:33:09 +0100] Download starting [using 1 connection(s), file size 87166147371 and chunk length 104857600]...
+[2026-06-12 00:33:09 +0100] File Id: 'EGAF00002250118'(15102016 bytes).
+[2026-06-12 00:33:09 +0100] Total space : 50.00 GiB
+[2026-06-12 00:33:09 +0100] Used space : 36.50 GiB
+[2026-06-12 00:33:09 +0100] Free space : 13.50 GiB
+[2026-06-12 00:33:09 +0100] Download starting [using 1 connection(s), file size 15102000 and chunk length 104857600]...
+[2026-06-12 00:33:10 +0100] 
+[2026-06-12 00:33:10 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:33:10 +0100] 
+[2026-06-12 00:33:10 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:33:10 +0100] File Id: 'EGAF00002249969'(86922761301 bytes).
+[2026-06-12 00:33:10 +0100] Total space : 50.00 GiB
+[2026-06-12 00:33:10 +0100] Used space : 36.50 GiB
+[2026-06-12 00:33:10 +0100] Free space : 13.50 GiB
+[2026-06-12 00:33:10 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:33:10 +0100] Download starting [using 1 connection(s), file size 86922761285 and chunk length 104857600]...
+[2026-06-12 00:33:10 +0100] File Id: 'EGAF00002249970'(10196000 bytes).
+[2026-06-12 00:33:10 +0100] Total space : 50.00 GiB
+[2026-06-12 00:33:10 +0100] Used space : 36.50 GiB
+[2026-06-12 00:33:10 +0100] Free space : 13.50 GiB
+[2026-06-12 00:33:10 +0100] Download starting [using 1 connection(s), file size 10195984 and chunk length 104857600]...
+[2026-06-12 00:33:10 +0100] 
+[2026-06-12 00:33:10 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:33:10 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:33:10 +0100] Python version : 3.10.12
+[2026-06-12 00:33:10 +0100] 
+[2026-06-12 00:33:10 +0100] OS version : Linux #184-Ubuntu SMP Fri Mar 13 18:41:50 UTC 2026
+[2026-06-12 00:33:10 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:33:10 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:33:10 +0100] Python version : 3.10.12
+[2026-06-12 00:33:10 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:33:10 +0100] Session-Id: 3793834015
+[2026-06-12 00:33:10 +0100] OS version : Linux #184-Ubuntu SMP Fri Mar 13 18:41:50 UTC 2026
+[2026-06-12 00:33:10 +0100] Combining file chunks (this operation can take a long time depending on the file size)
+[2026-06-12 00:33:10 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:33:10 +0100] Session-Id: 2152630041
+[2026-06-12 00:33:10 +0100] Calculating md5 (this operation can take a long time depending on the file size)
+[2026-06-12 00:33:10 +0100] Verifying file checksum
+[2026-06-12 00:33:10 +0100] Saved to : '/lustre/scratch127/casm/staging/panprostate/ega/1645805c-1560-11e7-aaf6-ffec1c16d74d/tmp.5HTdZ5KND9/EGAF00002250112/1645805c-1560-11e7-aaf6-ffec1c16d74d.cgpmap.bam.bai'(9362032 bytes, md5=beb61ea7c1e703702e9e96bebda35f63)
+[2026-06-12 00:33:10 +0100] Download complete
+[2026-06-12 00:33:10 +0100] Combining file chunks (this operation can take a long time depending on the file size)
+[2026-06-12 00:33:10 +0100] Calculating md5 (this operation can take a long time depending on the file size)
+[2026-06-12 00:33:10 +0100] Verifying file checksum
+[2026-06-12 00:33:10 +0100] Saved to : '/lustre/scratch127/casm/staging/panprostate/ega/05e3256a-1548-11e7-8498-ffec1c16d74d/tmp.wYyBVoW3Xi/EGAF00002250118/05e3256a-1548-11e7-8498-ffec1c16d74d.cgpmap.bam.bai'(15102000 bytes, md5=7ed75fb9a2096dc84ec62fc00e95b9f7)
+[2026-06-12 00:33:11 +0100] Download complete
+[2026-06-12 00:33:11 +0100] 
+[2026-06-12 00:33:11 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:33:11 +0100] File Id: 'EGAF00002249967'(93214326278 bytes).
+[2026-06-12 00:33:11 +0100] Total space : 50.00 GiB
+[2026-06-12 00:33:11 +0100] Used space : 36.50 GiB
+[2026-06-12 00:33:11 +0100] Free space : 13.50 GiB
+[2026-06-12 00:33:11 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:33:11 +0100] Download starting [using 1 connection(s), file size 93214326262 and chunk length 104857600]...
+[2026-06-12 00:33:11 +0100] 
+[2026-06-12 00:33:11 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:33:11 +0100] File Id: 'EGAF00002249968'(9704576 bytes).
+[2026-06-12 00:33:11 +0100] Total space : 50.00 GiB
+[2026-06-12 00:33:11 +0100] Used space : 36.50 GiB
+[2026-06-12 00:33:11 +0100] Free space : 13.50 GiB
+[2026-06-12 00:33:11 +0100] Download starting [using 1 connection(s), file size 9704560 and chunk length 104857600]...
+[2026-06-12 00:33:12 +0100] Combining file chunks (this operation can take a long time depending on the file size)
+[2026-06-12 00:33:12 +0100] Calculating md5 (this operation can take a long time depending on the file size)
+[2026-06-12 00:33:12 +0100] Verifying file checksum
+[2026-06-12 00:33:12 +0100] Saved to : '/lustre/scratch127/casm/staging/panprostate/ega/cbf8a7a6-1576-11e7-88f9-ffec1c16d74d/tmp.M3khhZ29AY/EGAF00002249968/cbf8a7a6-1576-11e7-88f9-ffec1c16d74d.cgpmap.bam.bai'(9704560 bytes, md5=570d5bfa06eb6919fa851f4d9708a51d)
+[2026-06-12 00:33:12 +0100] Download complete
+[2026-06-12 00:33:12 +0100] 
+[2026-06-12 00:33:12 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:33:12 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:33:12 +0100] Python version : 3.10.12
+[2026-06-12 00:33:12 +0100] OS version : Linux #184-Ubuntu SMP Fri Mar 13 18:41:50 UTC 2026
+[2026-06-12 00:33:12 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:33:12 +0100] Session-Id: 4096767867
+[2026-06-12 00:33:12 +0100] 
+[2026-06-12 00:33:12 +0100] pyEGA3 - EGA python client version 5.2.0 (https://github.com/EGA-archive/ega-download-client)
+[2026-06-12 00:33:12 +0100] Parts of this software are derived from pyEGA (https://github.com/blachlylab/pyega) by James Blachly
+[2026-06-12 00:33:12 +0100] Python version : 3.10.12
+[2026-06-12 00:33:12 +0100] OS version : Linux #184-Ubuntu SMP Fri Mar 13 18:41:50 UTC 2026
+[2026-06-12 00:33:12 +0100] Server URL: https://ega.ebi.ac.uk:8443/v2
+[2026-06-12 00:33:12 +0100] Session-Id: 3097553972
+[2026-06-12 00:33:13 +0100] 
+[2026-06-12 00:33:13 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:33:13 +0100] 
+[2026-06-12 00:33:13 +0100] Authentication success for user 'td14@sanger.ac.uk'
+[2026-06-12 00:33:13 +0100] File Id: 'EGAF00002249958'(9827736 bytes).
+[2026-06-12 00:33:13 +0100] Total space : 50.00 GiB
+[2026-06-12 00:33:13 +0100] Used space : 36.50 GiB
+[2026-06-12 00:33:13 +0100] Free space : 13.50 GiB
+[2026-06-12 00:33:13 +0100] Download starting [using 1 connection(s), file size 9827720 and chunk length 104857600]...
+[2026-06-12 00:33:13 +0100] File Id: 'EGAF00002249957'(99415526745 bytes).
+[2026-06-12 00:33:13 +0100] Total space : 50.00 GiB
+[2026-06-12 00:33:13 +0100] Used space : 36.50 GiB
+[2026-06-12 00:33:13 +0100] Free space : 13.50 GiB
+[2026-06-12 00:33:13 +0100] The size of the file that you want to download is bigger than your free space in this location
+[2026-06-12 00:33:13 +0100] Download starting [using 1 connection(s), file size 99415526729 and chunk length 104857600]...
+[2026-06-12 00:33:14 +0100] Combining file chunks (this operation can take a long time depending on the file size)
+[2026-06-12 00:33:14 +0100] Calculating md5 (this operation can take a long time depending on the file size)
+[2026-06-12 00:33:14 +0100] Verifying file checksum
+[2026-06-12 00:33:14 +0100] Saved to : '/lustre/scratch127/casm/staging/panprostate/ega/d9a362ee-1592-11e7-b167-feec1c16d74d/tmp.IwErodn3Da/EGAF00002249958/d9a362ee-1592-11e7-b167-feec1c16d74d.cgpmap.bam.bai'(9827720 bytes, md5=713ac10b24c0c11d76df7138655738d6)
+[2026-06-12 00:33:14 +0100] Download complete
+[2026-06-12 00:33:26 +0100] Combining file chunks (this operation can take a long time depending on the file size)
+[2026-06-12 00:33:26 +0100] Calculating md5 (this operation can take a long time depending on the file size)
+[2026-06-12 00:33:26 +0100] Verifying file checksum
+[2026-06-12 00:33:26 +0100] Saved to : '/lustre/scratch127/casm/staging/panprostate/ega/c57a5efa-1563-11e7-9ddc-feec1c16d74d/tmp.yCmA0FQIl3/EGAF00002249970/c57a5efa-1563-11e7-9ddc-feec1c16d74d.cgpmap.bam.bai'(10195984 bytes, md5=756f130a7b9890b81c9ee4b18811f9cb)
+[2026-06-12 00:33:26 +0100] Download complete

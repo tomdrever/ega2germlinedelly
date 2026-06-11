@@ -1,9 +1,11 @@
 {
     "ref_path": "/path/to/ref/genome.fa",
-    "delly_image": "/path/to/delly.sif",
-    "staging_dif": "/path/to/staging/",
+    "sites_path": "/path/to/sites.bcf",
+    "staging_dir": "/path/to/staging/",
     "out_dir": "/path/to/out",
+    "gpg_key_path": None, # Target Generation - if provided, create Targets to encrypt bcf files with gpg key
     "do_delete": false, # Target Generation - if staging from EGA File IDs, create Targets to remove the staged files
-    "do_encrypt": false, # Target Generation - create Targets to encrypt
-    "" 
+    "singularity_flags": "--bind /scratch:/scratch"
+    "pre_script": ""
+    "post_script": ""
 }

@@ -1,5 +1,10 @@
-config.json
-input.csv
+.vscode/
+
 .venv/
 .mypy_cache/
-.vscode/
+__pycache__/
+
+.gwf
+input.csv
+config.json
+*.log

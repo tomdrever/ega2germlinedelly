@@ -1,0 +1,6 @@
+attrs
+prettyprinter
+click
+click_plugins
+gwf @ https://github.com/gwforg/gwf/archive/refs/tags/v2.1.1.tar.gz
+pyega3
