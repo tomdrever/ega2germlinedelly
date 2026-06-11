@@ -1,0 +1,5 @@
+config.json
+input.csv
+.venv/
+.mypy_cache/
+.vscode/
