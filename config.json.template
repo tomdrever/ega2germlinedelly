@@ -4,7 +4,6 @@
     "staging_dir": "/path/to/staging/",
     "out_dir": "/path/to/out",
     "gpg_key_path": None, # Target Generation - if provided, create Targets to encrypt bcf files with gpg key
-    "do_delete": false, # Target Generation - if staging from EGA File IDs, create Targets to remove the staged files
     "singularity_flags": "--bind /scratch:/scratch"
     "pre_script": ""
     "post_script": ""

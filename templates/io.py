@@ -9,7 +9,7 @@ from models import Config
 def download_template(
         ega_file_id: str,
         staging_dir: str,
-        out_file: str,
+        out_file_path: str,
         config: Config
         ) -> AnonymousTarget:
     # INPUTS
@@ -19,7 +19,7 @@ def download_template(
 
     # OUTPUTS
     outputs = {
-        "file": os.path.join(staging_dir, out_file)
+        "file": os.path.join(staging_dir, out_file_path)
     }
 
     # SPEC
@@ -28,41 +28,18 @@ def download_template(
         {config.pre_script}
         set -euo pipefail
 
-        mkdir -p {staging_dir}
+        pyega3 -cf {inputs['credentials']} fetch {ega_file_id} --output-dir {staging_dir}
 
-        tmp_dir=$(mktemp -d -p {staging_dir})
-        trap "rm -f ${{tmp_dir}}" EXIT
+        mapfile -t file_hits < <(find "{staging_dir}/{ega_file_id}" -maxdepth 1 -type f ! -name '*.md5')
+        if [ "${{#file_hits[@]}}" -ne 1 ]; then
+            echo "Expected one data file in {staging_dir}/{ega_file_id}, found ${{#file_hits[@]}}: ${{file_hits[*]}}" >&2
+            exit 1
+        fi
 
-        pyega3 -cf {inputs['credentials']} fetch {ega_file_id} --output-dir ${{tmp_dir}}
+        mv "${{file_hits[0]}}" "{outputs['file']}"
 
-        mv ${{tmp_dir}}/{ega_file_id}/* {outputs['file']}
+        rm -r "{staging_dir}/{ega_file_id}"
 
-        {config.post_script}
-        """
-    )
-
-    return AnonymousTarget(inputs=inputs, outputs=outputs, options={}, spec=spec) # type: ignore
-
-
-def remove_template(file: str, done_file: str, config: Config) -> AnonymousTarget:
-    # INPUTS
-    inputs = {
-        "file": file,
-        "required_done": done_file
-    }
-
-    # OUTPUTS
-    outputs = {
-        "done": file + ".remove.done"
-    }
-
-    # SPEC
-    spec = dedent(
-        rf"""
-        {config.pre_script}
-        set -euo pipefail
-        rm {inputs['file']}
-        touch {outputs['done']}
         {config.post_script}
         """
     )

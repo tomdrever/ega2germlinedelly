@@ -1,16 +1,31 @@
 # ega2germlinedelly
 
-Small [GWF](https://github.com/gwforg/gwf workflow for running germline Delly 0.8.7 on . Optionally 
+Small [GWF](https://github.com/gwforg/gwf) workflow for running germline Delly 0.8.7. If EGAF IDs and a valid ega credential files are provided, will also use pyega3 to download the BAM and BAI files.
+
+```mermaid
+flowchart TB
+
+get_delly_sif --> delly_call
+
+subgraph per_sample["Per sample"]
+stage_bam -.-> delly_call
+stage_bai -.-> delly_call
+delly_call -.-> encrypt_bcf
+delly_call -.-> encrypt_csi
+class stage_bam,stage_bai,encrypt_bcf,encrypt_csi opt
+end
+
+classDef opt stroke-dasharray: 5 5
+```
+
 
 ## Requirements
-
 - python3 3.10.12
 - [gwf](https://github.com/gwforg/gwf) 2.1.1
 - [singularity](https://sylabs.io/singularity) 3.11.0
-- [pyega2](https://github.com/EGA-archive/ega-download-client) 5.1.0
+- [pyega3](https://github.com/EGA-archive/ega-download-client) 5.1.0 (optional)
 
 ## Installation
-
 ```
 git clone git@github.com:tomdrever/ega2germlinedelly.git
 python3 -m venv .venv
@@ -19,10 +34,23 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+1. Copy and fill out the template config file and input csv. These specify staging and output directories, whether to encrypt the result files with a gpg key.
+    ```
+    cp config.json.template config.json
+    cp input.csv.template input.csv
+    ```
 
-Copy and fill out the template config file and 
+2. Check the targets generated.
+    ```
+    gwf status
+    ```
 
-```
-cp config.json.template config.json
-cp input.csv.template input.csv
-```
+3. Run the workflow.
+    ```
+    gwf run
+    ```
+
+4. (Optional) Remove the intermediates (Delly sif, staged EGA files if downloading and unencrypted Delly BCFs if encrypting).
+    ```
+    gwf clean
+    ```

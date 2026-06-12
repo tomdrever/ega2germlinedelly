@@ -7,7 +7,7 @@ from textwrap import dedent
 from gwf import Workflow
 
 from models import Config
-from templates.io import download_template, encrypt_template, remove_template
+from templates.io import download_template, encrypt_template
 from templates.delly import delly_call_template
 
 
@@ -26,6 +26,7 @@ with open("config.json") as fh:
         print(str(e))
         sys.exit(1)
 
+# Download delly sif
 delly_sif_path = os.path.join(config.out_dir, "delly_v0.8.7.sif")
 get_delly_sif = (
     gwf.target(
@@ -73,7 +74,7 @@ with open('input.csv', "r") as file:
                 template=download_template(
                     ega_file_id=ega_bam_id,
                     staging_dir=os.path.join(config.staging_dir, sample_id),
-                    out_file=f"{sample_id}.bam",
+                    out_file_path=f"{sample_id}.bam",
                     config=config
                 )
             )
@@ -82,7 +83,7 @@ with open('input.csv', "r") as file:
                 template=download_template(
                     ega_file_id=ega_bai_id,
                     staging_dir=os.path.join(config.staging_dir, sample_id),
-                    out_file=f"{sample_id}.bam.bai",
+                    out_file_path=f"{sample_id}.bam.bai",
                     config=config
                 )
             )
@@ -103,25 +104,15 @@ with open('input.csv', "r") as file:
             )
         )
 
-        # Remove staged files
-        if ega_bam_id and config.do_delete:
-            for i, file in enumerate([bam_path, bai_path]):
-                gwf.target_from_template(
-                    name=f"unstage_{sample_id_safe}_{i}",
-                    template=remove_template(
-                        file=file, # type: ignore
-                        done_file=delly_call.outputs['bcf'], # type: ignore
-                        config=config
-                    )
-                )
-
         # Encrypt if enabled
         if config.gpg_key_path:
-            for i, file in enumerate([delly_call.outputs['bcf'], delly_call.outputs['csi']]): # type: ignore
+            for output in delly_call.outputs:
+                output_file: str = delly_call.outputs[output] # type: ignore
+
                 encyrpt_bcf = gwf.target_from_template(
-                    name=f"encrypt_{sample_id_safe}_result_{i}",
+                    name=f"encrypt_{sample_id_safe}_{output}",
                     template=encrypt_template(
-                        file=file, # type: ignore
+                        file=output_file,
                         config=config
                     )
                 )
