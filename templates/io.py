@@ -67,7 +67,7 @@ def encrypt_template(file: str, config: Config) -> AnonymousTarget:
         gpg --batch --yes --pinentry-mode loopback \
         --passphrase-file {inputs['key']} \
         --symmetric --cipher-algo AES256 \
-        -o {outputs['gpg']}
+        -o {outputs['gpg']} {inputs['file']}
         {config.post_script}
         """
     )
