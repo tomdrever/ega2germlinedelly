@@ -3,8 +3,9 @@
     "sites_path": "/path/to/sites.bcf",
     "staging_dir": "/path/to/staging/",
     "out_dir": "/path/to/out",
-    "gpg_key_path": None, # Target Generation - if provided, create Targets to encrypt bcf files with gpg key
-    "singularity_flags": "--bind /scratch:/scratch"
-    "pre_script": ""
+    "pre_script": "module load singularity"
     "post_script": ""
+    "singularity_flags": "--bind /scratch:/scratch"
+    "gpg_key_path": None, # Target Generation - if provided, create Targets to encrypt bcf files with gpg key
+    "ega_credentials_path": "/path/to/credentials.json" # Required if using ega_bam/bai_id in input.csv
 }

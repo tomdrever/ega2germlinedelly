@@ -1,6 +1,6 @@
 # ega2germlinedelly
 
-Small [GWF](https://github.com/gwforg/gwf) workflow for running germline Delly 0.8.7. If EGAF IDs and a valid ega credential files are provided, will also use pyega3 to download the BAM and BAI files.
+Small [GWF](https://github.com/gwforg/gwf) workflow for running germline Delly 0.8.7. If EGAF IDs and a valid [EGA credential file](https://github.com/EGA-archive/ega-download-client/blob/master/pyega3/config/default_credential_file.json) is provided, will also use pyega3 to download the BAM and BAI files.
 
 ```mermaid
 flowchart TB
@@ -12,12 +12,15 @@ stage_bam -.-> delly_call
 stage_bai -.-> delly_call
 delly_call -.-> encrypt_bcf
 delly_call -.-> encrypt_csi
-class stage_bam,stage_bai,encrypt_bcf,encrypt_csi opt
 end
 
-classDef opt stroke-dasharray: 5 5
-```
+style per_sample fill:#eee,stroke:#333
 
+class stage_bam,stage_bai,encrypt_bcf,encrypt_csi opt
+class get_delly_sif,stage_bam,stage_bai,delly_call,encrypt_bcf,encrypt_csi node
+classDef opt stroke-dasharray: 5 5
+classDef node fill:#fff,stroke:#333
+```
 
 ## Requirements
 - python3 3.10.12
