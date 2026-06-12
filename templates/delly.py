@@ -22,9 +22,10 @@ def delly_call_template(
     }
 
     # OUTPUTS
+    out_dir = os.path.join(config.out_dir, sample_id)
     outputs = {
-        "bcf": os.path.join(config.out_dir, sample_id, f"{sample_id}.bcf"),
-        "csi": os.path.join(config.out_dir, sample_id, f"{sample_id}.bcf.csi")
+        "bcf": os.path.join(out_dir, f"{sample_id}.bcf"),
+        "csi": os.path.join(out_dir, f"{sample_id}.bcf.csi")
     }
 
     # OPTIONS
@@ -39,12 +40,14 @@ def delly_call_template(
         rf"""
         {config.pre_script}
         set -euo pipefail
-        singularity exec {config.singularity_flags} ${inputs['sif']} \
+        mkdir -p {out_dir}
+
+        singularity exec {config.singularity_flags} {inputs['sif']} \
             delly call \
             -g {inputs['ref']} \
             -v {inputs['sites']} \
             -o {outputs['bcf']} \
-            {inputs}
+            {inputs['bam']}
         {config.post_script}
         """
     )
