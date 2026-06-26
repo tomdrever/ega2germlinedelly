@@ -35,6 +35,7 @@ get_delly_sif = (
         outputs={
             "sif": delly_sif_path,
         },
+        protect=[delly_sif_path]
     )
     << dedent(
         rf"""
@@ -50,7 +51,11 @@ get_delly_sif = (
 with open('input.csv', "r") as file:
     for i, row in enumerate(csv.reader(file)):
         # Skip header/comment lines
-        if row[0].startswith("#"):
+        if row[0].strip().startswith("#"):
+            continue
+
+        # Skip empty rows
+        if not row or not row[0].strip():
             continue
 
         # Read sample sheet lines
