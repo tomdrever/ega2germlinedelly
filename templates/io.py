@@ -1,7 +1,7 @@
 import os
 from textwrap import dedent
 
-from gwf import AnonymousTarget
+from gwf import AnonymousTarget # pyright: ignore[reportMissingImports]
 
 from models import Config
 
@@ -22,9 +22,21 @@ def download_template(
         "file": os.path.join(staging_dir, out_file_path)
     }
 
+    # OPTIONS
+    # NOTE - will need configuring for other schedulers. This uses a 
+    # custom GWF option "tokens" for Sanger LSF - use resource tokens 
+    # to limit the number of concurrrent jobs. An alternative would be 
+    # to run jobs in batches (multiple input.csv files)
+    options = {
+        "cores": 1,
+        "memory": "500MB",
+        "queue": "normal",
+        "tokens": ["casm_highio", 50]
+    }
+
     # SPEC
-    # runs pyega3 fetch, then expects to get 1 non-md5 output file in the staging dir, and 
-    # moves that to the defined output
+    # Runs pyega3 fetch, then expects to get 1 non-md5 output file in
+    # the staging dir, and moves that to the defined output
     spec = dedent(
         rf"""
         {config.pre_script}
@@ -52,7 +64,12 @@ def download_template(
         """
     )
 
-    return AnonymousTarget(inputs=inputs, outputs=outputs, options={}, spec=spec) # type: ignore
+    return AnonymousTarget(
+        inputs=inputs,
+        outputs=outputs,
+        options=options,
+        spec=spec
+    ) # type: ignore
 
 
 def encrypt_template(file: str, config: Config) -> AnonymousTarget:
@@ -92,4 +109,9 @@ def encrypt_template(file: str, config: Config) -> AnonymousTarget:
         """
     )
 
-    return AnonymousTarget(inputs=inputs, outputs=outputs, options={}, spec=spec) # type: ignore
+    return AnonymousTarget(
+        inputs=inputs,
+        outputs=outputs,
+        options={},
+        spec=spec
+    ) # type: ignore

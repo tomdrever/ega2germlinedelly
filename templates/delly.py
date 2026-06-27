@@ -1,7 +1,7 @@
 import os
 from textwrap import dedent
 
-from gwf import AnonymousTarget
+from gwf import AnonymousTarget # pyright: ignore[reportMissingImports]
 
 from models import Config
 
@@ -52,4 +52,9 @@ def delly_call_template(
         """
     )
 
-    return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec) # type: ignore
+    return AnonymousTarget(
+        inputs=inputs,
+        outputs=outputs,
+        options=options, 
+        spec=spec
+    ) # type: ignore
