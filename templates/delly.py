@@ -53,8 +53,8 @@ def delly_call_template(
     )
 
     return AnonymousTarget(
-        inputs=inputs,
-        outputs=outputs,
+        inputs=inputs, # type: ignore
+        outputs=outputs, # type: ignore
         options=options, 
         spec=spec
-    ) # type: ignore
+    )

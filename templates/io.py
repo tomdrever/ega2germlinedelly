@@ -65,8 +65,8 @@ def download_template(
     )
 
     return AnonymousTarget(
-        inputs=inputs,
-        outputs=outputs,
+        inputs=inputs, # type: ignore
+        outputs=outputs, # type: ignore
         options=options,
         spec=spec
     ) # type: ignore
@@ -110,8 +110,8 @@ def encrypt_template(file: str, config: Config) -> AnonymousTarget:
     )
 
     return AnonymousTarget(
-        inputs=inputs,
-        outputs=outputs,
+        inputs=inputs, # type: ignore
+        outputs=outputs, # type: ignore
         options={},
         spec=spec
-    ) # type: ignore
+    ) 
