@@ -50,12 +50,12 @@ get_delly_sif = (
 # Per-sample targets
 with open('input.csv', "r") as file:
     for i, row in enumerate(csv.reader(file)):
-        # Skip header/comment lines
-        if row[0].strip().startswith("#"):
-            continue
-
         # Skip empty rows
         if not row or not row[0].strip():
+            continue
+
+        # Skip header/comment lines
+        if row[0].strip().startswith("#"):
             continue
 
         # Read sample sheet lines
