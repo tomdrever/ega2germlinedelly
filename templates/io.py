@@ -30,7 +30,7 @@ def download_template(
     options = {
         "cores": 1,
         "memory": "500MB",
-        "queue": "normal",
+        "queue": "long",
         "tokens": ["casm_highio", 50]
     }
 
@@ -44,7 +44,7 @@ def download_template(
 
         mkdir -p {staging_dir}
 
-        pyega3 -cf {inputs['credentials']} fetch {ega_file_id} \
+        pyega3 -cf {inputs['credentials']} --max-slice-size {500 * 1024 * 1024} fetch {ega_file_id} \
             --output-dir {staging_dir} \
             --max-retries -1 \
             --retry-wait 60 \

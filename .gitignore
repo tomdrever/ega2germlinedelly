@@ -9,4 +9,4 @@ inputs/
 .gwf
 input.csv
 config.json
-*.log
+*.log*

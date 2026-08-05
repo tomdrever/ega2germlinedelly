@@ -16,7 +16,7 @@ def _exit(message: str) -> None:
     sys.exit(1)
 
 
-gwf = Workflow(".")
+gwf = Workflow(".") # type: ignore
 
 # Parse config
 with open("config.json") as fh:
