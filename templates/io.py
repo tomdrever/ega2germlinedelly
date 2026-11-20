@@ -1,7 +1,7 @@
 import os
 from textwrap import dedent
 
-from gwf import AnonymousTarget # pyright: ignore[reportMissingImports]
+from gwf import AnonymousTarget
 
 from models import Config
 
@@ -28,10 +28,10 @@ def download_template(
     # to limit the number of concurrrent jobs. An alternative would be 
     # to run jobs in batches (multiple input.csv files)
     options = {
-        "cores": 1,
+        "cores": 8,
         "memory": "500MB",
         "queue": "long",
-        "tokens": ["casm_highio", 50]
+        "tokens": ["casm_highio", 20]
     }
 
     # SPEC
@@ -44,10 +44,17 @@ def download_template(
 
         mkdir -p {staging_dir}
 
-        pyega3 -cf {inputs['credentials']} --max-slice-size {500 * 1024 * 1024} fetch {ega_file_id} \
+        unset http_proxy
+        unset https_proxy
+        unset HTTP_PROXY
+        unset HTTPS_PROXY
+
+        pyega3 -cf {inputs['credentials']} \
+            --connections 8 \
+            fetch {ega_file_id} \
             --output-dir {staging_dir} \
             --max-retries -1 \
-            --retry-wait 60 \
+            --retry-wait 120 \
             --delete-temp-files
 
         mapfile -t file_hits < <(find "{staging_dir}/{ega_file_id}" -maxdepth 1 -type f ! -name '*.md5')

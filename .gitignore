@@ -10,3 +10,4 @@ inputs/
 input.csv
 config.json
 *.log*
+.claude/
