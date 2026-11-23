@@ -9,4 +9,7 @@ inputs/
 .gwf
 input.csv
 config.json
+subsection_input.csv
+subsection_config.json
 *.log*
+.claude/
