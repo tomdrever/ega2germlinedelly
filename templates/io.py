@@ -3,14 +3,14 @@ from textwrap import dedent
 
 from gwf import AnonymousTarget
 
-from models import Config
+from models import BaseConfig
 
 
 def download_template(
         ega_file_id: str,
         staging_dir: str,
         out_file_path: str,
-        config: Config
+        config: BaseConfig
         ) -> AnonymousTarget:
     # INPUTS
     inputs = {
@@ -31,7 +31,7 @@ def download_template(
         "cores": 8,
         "memory": "500MB",
         "queue": "long",
-        "tokens": ["casm_highio", 20]
+        "tokens": ["casm_highio", 50]
     }
 
     # SPEC
@@ -79,7 +79,7 @@ def download_template(
     ) # type: ignore
 
 
-def encrypt_template(file: str, config: Config) -> AnonymousTarget:
+def encrypt_template(file: str, config: BaseConfig) -> AnonymousTarget:
     # INPUTS
     inputs = {
         "file": file,

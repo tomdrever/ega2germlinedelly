@@ -3,7 +3,7 @@ from textwrap import dedent
 
 from gwf import AnonymousTarget # pyright: ignore[reportMissingImports]
 
-from models import Config
+from models import DellyConfig
 
 
 def delly_call_template(
@@ -11,7 +11,7 @@ def delly_call_template(
         bam_path: str,
         bai_path: str,
         delly_sif: str,
-        config: Config) -> AnonymousTarget:
+        config: DellyConfig) -> AnonymousTarget:
     # INPUTS
     inputs = {
         "bam": bam_path,

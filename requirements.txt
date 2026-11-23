@@ -2,5 +2,5 @@ attrs
 prettyprinter
 click
 click_plugins
-gwf @ https://github.com/gwforg/gwf/archive/refs/tags/v2.1.1.tar.gz
+gwf @ git+ssh://git@github.com/tomdrever/gwf.git@3c315cafaafddbbddf5b5268a59b8b87519e320b#egg=gwf
 pyega3
