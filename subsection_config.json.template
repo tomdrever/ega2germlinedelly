@@ -1,0 +1,10 @@
+{
+    "staging_dir": "/path/to/staging/",
+    "out_dir": "/path/to/out",
+    "pre_script": "module load singularity",
+    "post_script": "",
+    "singularity_flags": "--bind /scratch:/scratch",
+    "samtools_image": "docker://quay.io/biocontainers/samtools:1.23.1--ha83d96e_0",
+    "gpg_key_path": null,
+    "ega_credentials_path": "/path/to/credentials.json"
+}
